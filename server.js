@@ -20,7 +20,7 @@ const app = express();
 /* ================= CORS ================= */
 app.use(cors({
   origin: [
-    'https://inventory-shop-omega.vercel.app'
+    'https://localhost:5173',
   ],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],

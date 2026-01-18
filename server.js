@@ -22,7 +22,9 @@ const app = express();
 
 /* ================= CORS ================= */
 app.use(cors({
-  origin: 'https://frontend-shop-igbh.vercel.app',
+  origin: [
+    'https://inventory-shop-omega.vercel.app'
+  ],
   credentials: true
 }));
 

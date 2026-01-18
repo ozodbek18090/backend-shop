@@ -22,7 +22,7 @@ const app = express();
 
 /* ================= CORS ================= */
 app.use(cors({
-  origin: 'https://frontend-shop-omega.vercel.app',
+  origin: 'https://frontend-shop-igbh.vercel.app',
   credentials: true
 }));
 
